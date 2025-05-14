@@ -1,0 +1,23 @@
+[package]
+name = "dephy-id-program-cli"
+version = "0.0.1"
+description = "CLI for the DePHY ID Solana program"
+authors.workspace = true
+homepage.workspace = true
+repository.workspace = true
+license.workspace = true
+readme = "README.md"
+edition = "2021"
+publish = false
+
+[dependencies]
+dephy-id-program-client = { path = "../clients/rust", features = [] }
+solana-sdk = { workspace = true }
+solana-client = { workspace = true }
+spl-token-2022 = { workspace = true }
+spl-associated-token-account = { workspace = true, features = ["no-entrypoint"] }
+ed25519-dalek = { workspace = true }
+libsecp256k1 = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+arrayref = { workspace = true }
+hex = { workspace = true }
