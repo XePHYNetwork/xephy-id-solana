@@ -20,9 +20,6 @@ XePHY ID consolidated Solana codebase
   which is useful for creating tools.
 - [xephy Wallet](extensions/wallet):
   xephy Wallet is a program that allowing to create a manage wallet for xephy ID devices.
-- [Product program template](templates/product-program):
-  You can fork this to deploy your own program managed xephy product. 
-  You can use this program to mint a device directly, and you can customize the minting logic.
 - [Example: Simple data subscription (with Kwil)](./examples/kwil):
   A demo to show how to connect DePIN devices with Kwil decentralized DB,
   Devices can publish their data to the Kwil DB, people can subscribe them, and read.
