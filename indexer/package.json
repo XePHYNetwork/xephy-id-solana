@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "generate:edgeql": "generate edgeql-js --target ts",
+    "generate:queries": "generate queries",
+    "dephy-indexer": "bun run ./main.ts",
+    "dephy-ui": "imba -w --esm ui/app.imba"
+  },
+  "dependencies": {
+    "@dephy-io/dephy-id-program-client": "file:../clients/js",
+    "@noble/hashes": "^1.5.0",
+    "@solana/rpc-graphql": "^2.0.0-rc.1",
+    "@solana/web3.js": "^2.0.0-rc.1",
+    "edgedb": "^1.5.12"
+  },
+  "devDependencies": {
+    "@edgedb/generate": "^0.5.6",
+    "@types/express": "^5.0.0",
+    "bun-types": "latest"
+  }
+}

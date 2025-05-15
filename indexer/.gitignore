@@ -1,0 +1,8 @@
+/node_modules
+src/generated
+bun.lockb
+dbschema/edgeql-js
+
+# local env files
+.env
+.env.local
